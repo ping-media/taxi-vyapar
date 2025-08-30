@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/all"
+        android:title="All Vehicles" />
+    <item
+        android:id="@+id/vh1"
+        android:title="Hatchback" />
+    <item
+        android:id="@+id/vh2"
+        android:title="Sedan" />
+    <item
+        android:id="@+id/vh3"
+        android:title="Ertiga" />
+    <item
+        android:id="@+id/vh4"
+        android:title="Suv" />
+    <item
+        android:id="@+id/vh9"
+        android:title="Kia Cerens" />
+    <item
+        android:id="@+id/vh5"
+        android:title="Innova" />
+    <item
+        android:id="@+id/vh6"
+        android:title="Innova Crysta" />
+    <item
+        android:id="@+id/vh10"
+        android:title="Innova Hycross" />
+    <item
+        android:id="@+id/vh7"
+        android:title="Force Traveller" />
+    <item
+        android:id="@+id/vh8"
+        android:title="Bus" />
+
+</menu>

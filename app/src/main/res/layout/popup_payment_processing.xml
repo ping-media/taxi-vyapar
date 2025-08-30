@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="330dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- Processing Icon -->
+        <ImageView
+            android:id="@+id/processingIcon"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/baseline_access_time_24"
+            android:background="@drawable/circle_button_border"
+            android:padding="20dp"
+            app:tint="@color/white"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Processing Title -->
+        <TextView
+            android:id="@+id/processingTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Processing Payment"
+            style="@style/TextHeading"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/black_color"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Processing Message -->
+        <TextView
+            android:id="@+id/processingMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please wait while we process your payment..."
+            android:textSize="16sp"
+            style="@style/TextNormal"
+            android:textColor="@color/black_color"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Loading Dots -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_button_border"
+                android:layout_margin="4dp" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_button_border"
+                android:layout_margin="4dp" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/circle_button_border"
+                android:layout_margin="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView> 

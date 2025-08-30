@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:name=".mynot"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TaxiVyapar"
+        tools:targetApi="31">
+        <activity
+            android:name=".send_review2"
+            android:exported="false" />
+        <activity
+            android:name=".send_review"
+            android:exported="false" />
+        <activity
+            android:name=".editbooking"
+            android:exported="false" />
+        <activity
+            android:name=".driverdetail"
+            android:exported="false" />
+        <activity
+            android:name=".newupdate"
+            android:exported="false" />
+        <activity
+            android:name=".reviewuser"
+            android:exported="false" />
+        <activity
+            android:name=".requestpay"
+            android:exported="false" />
+        <activity
+            android:name=".selectdrvier"
+            android:exported="false" />
+        <activity
+            android:name=".bookchatmy"
+            android:exported="false" />
+        <activity
+            android:name=".bookchat"
+            android:exported="false" />
+        <activity
+            android:name=".adharverify"
+            android:exported="false" />
+        <activity
+            android:name=".adddriver"
+            android:exported="false" />
+        <activity
+            android:name=".vehicledetail"
+            android:exported="false" />
+        <activity
+            android:name=".addvehicle"
+            android:exported="false" />
+        <activity
+            android:name=".subscribe"
+            android:exported="false" />
+        <activity
+            android:name=".bookingdetail"
+            android:exported="false" />
+        <activity
+            android:name=".postvehicle"
+            android:exported="false" />
+        <activity
+            android:name=".postbooking"
+            android:exported="false" />
+        <activity
+            android:name=".mykyc"
+            android:exported="false" />
+        <activity
+            android:name=".managevehicle"
+            android:exported="false" />
+        <activity
+            android:name=".managedriver"
+            android:exported="false" />
+        <activity
+            android:name=".mynetwork"
+            android:exported="false" />
+        <activity
+            android:name=".support"
+            android:exported="false" />
+        <activity
+            android:name=".about"
+            android:exported="false" />
+        <activity
+            android:name="com.canhub.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity
+            android:name=".imageview"
+            android:exported="false" />
+        <activity
+            android:name=".privacy"
+            android:exported="false" />
+        <activity
+            android:name=".editprofile"
+            android:exported="false" />
+        <activity
+            android:name=".notifications"
+            android:exported="false" />
+        <activity
+            android:name=".transaction"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
+            android:name=".mybooking"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".home"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".signup"
+            android:exported="false" />
+        <activity
+            android:name=".otpverification"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+    </application>
+
+</manifest>

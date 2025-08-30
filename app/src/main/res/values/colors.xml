@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#39434C</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#f1f1f1</color>
+    <color name="background_sec">#EBEFF5</color>
+    <color name="black_color">#39434C</color>
+    <color name="blue_color">#008EFF</color>
+    <color name="yellow_color">#FE9307</color>
+    <color name="lightblue">#E7F4FF</color>
+    <color name="blue_like">#BED2E1</color>
+    <color name="black_grey">#6D6969</color>
+    <color name="gray_color">#7C92A6</color>
+    <color name="green_color">#4CAF50</color>
+    <color name="red_color">#F44336</color>
+    <color name="disable_color">#A4A4A4</color>
+
+    <color name="bgDashboardColor">#f4f4f3</color>
+    <color name="bgHomeCardUser">#1a78849e</color>
+    <color name="bgHomeCardUser20">#3378849e</color>
+
+    <color name="buttonColor">#f7b217</color>
+    <color name="buttonColorGray">#454f63</color>
+    <color name="buttonColorRed">#f46262</color>
+
+<!--    <color name="background">#fcfcf7</color>-->
+    <color name="colorAccent">#ffeb3b</color>
+    <color name="colorPrimary">#6200ee</color>
+    <color name="colorPrimaryDark">#00574b</color>
+    <color name="color_default_img_bg">#e4e4e4</color>
+
+    <color name="darkBlack">#030303</color>
+
+    <color name="gnt_ad_green">#3a6728</color>
+    <color name="gnt_black">#000000</color>
+    <color name="gnt_blue">#4285f4</color>
+    <color name="gnt_gray">#808080</color>
+    <color name="gnt_green">#00ff00</color>
+    <color name="gnt_outline">#e0e0e0</color>
+    <color name="gnt_red">#ff0000</color>
+    <color name="gnt_test_background_color">#00f4f4f4</color>
+    <color name="gnt_test_background_color_2">#00a3a3a3</color>
+    <color name="gnt_white">#ffffff</color>
+    <color name="green">#4ca73c</color>
+    <color name="greyColor">#424242</color>
+
+    <color name="hintColor">#959dad</color>
+    <color name="hintGrey">#b8424242</color>
+    <color name="lightOrange">#33f7b217</color>
+    <color name="light_green">#944ca73c</color>
+
+    <color name="notificationGray">#33424242</color>
+    <color name="notificationScreenColor">#2a2e43</color>
+
+    <color name="red">#f46262</color>
+    <color name="resendCode">#3da4ab</color>
+    <color name="rippelColor">#0099cc</color>
+
+    <color name="searchGrey">#7c7979</color>
+
+    <color name="test_color">#000</color>
+    <color name="textColorGray">#78849e</color>
+
+    <color name="unselected_tab_color">#707070</color>
+    <color name="veryLightTransperent">#0f424242</color>
+
+</resources>
